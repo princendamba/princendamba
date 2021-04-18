@@ -1,0 +1,92 @@
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  .active {
+    background-color: #d85926;
+  }
+  li{
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  body{
+    background-color: rgb(61, 61, 61);
+  }
+  .diapo{
+    margin: 0 auto;
+    width: 100%;
+    height:650px;
+    border: 0px solid black;
+    background-image: url(./Diaporama/1.jpg);
+    -webkit-background-size:cover; 
+    background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+  
+    -webkit-animation-name: diapo;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function:step-end;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction: normal;
+    
+  
+    -moz-animation-name: diapo;
+    -moz-animation-duration: 20s;
+    -moz-animation-timing-function:step-end;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction: normal;
+   
+    --animation-name: diapo;
+    --animation-duration: 20s;
+    --animation-timing-function:step-end;
+    --animation-iteration-count:infinite;
+    --animation-direction: normal;   
+  }
+  @-webkit-keyframes diapo {
+    0%{background-image: url(./Diaporama/1.jpg)}
+    20%{background-image: url(./Diaporama/21.jpg)}
+    40%{background-image: url(./Diaporama/20.jpg)}
+    60%{background-image: url(./Diaporama/4.jpg)}
+    80%{background-image: url(./Diaporama/17.jpg)}
+  }
+  @-webkit-keyframes diapo {
+    0%{background-image: url(./Diaporama/1.jpg)}
+    20%{background-image: url(./Diaporama/21.jpg)}
+    40%{background-image: url(./Diaporama/20.jpg)}
+    60%{background-image: url(./Diaporama/4.jpg)}
+    80%{background-image: url(./Diaporama/17.jpg)}
+  }
+  @-webkit-keyframes diapo {
+    0%{background-image: url(./Diaporama/1.jpg)}
+    20%{background-image: url(./Diaporama/21.jpg)}
+    40%{background-image: url(./Diaporama/20.jpg)}
+    60%{background-image: url(./Diaporama/4.jpg)}
+    80%{background-image: url(./Diaporama/17.jpg)}
+  }
+
+
+.video{
+    text-align: left;
+}
+
+td{
+    color: white;
+    text-align: center;
+}
+table{
+    margin-top: 2%;
+}
